@@ -6,10 +6,10 @@ pythonのインストール方法
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
 
 #Path設定
-echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bash_profile
-echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bash_profile
-source ~/.bash_profile
+echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.bashrc
+echo 'export PATH="$PYENV_ROOT/shims:$PATH"' >> ~/.bashrc
+source ~/.bashrc
 
 #確認
 pyenv --version
