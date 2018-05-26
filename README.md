@@ -27,6 +27,18 @@ echo 'Defaults env_keep += "PYENV_ROOT"' | sudo tee -a ./sudoers
 #確認
 sudo pyenv --version
 
+#インストール可能バージョン一覧
+pyenv install --list
+
 #pythonインストール
 sudo pyenv install 3.6.5
+
+#現在の設定確認
+pyenv versions
+
+#設定バージョン変更
+sudo pyenv global 3.6.5
+
+#現在の設定確認
+pyenv versions
 ```
