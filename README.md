@@ -28,5 +28,5 @@ echo 'Defaults env_keep += "PYENV_ROOT"' | sudo tee -a ./sudoers
 sudo pyenv --version
 
 #pythonインストール
-sudo pyenv 3.6.5
+sudo pyenv install 3.6.5
 ```
