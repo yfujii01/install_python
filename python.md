@@ -4,6 +4,7 @@ pythonのインストール方法
 ```sh
 # コンパイルに必要なパッケージインストール
 sudo apt-get install git gcc make openssl libssl-dev libbz2-dev libreadline-dev libsqlite3-dev -y
+sudo apt-get install zlib1g-dev -y
 
 # gitからpyenvインストール
 git clone https://github.com/pyenv/pyenv.git ~/.pyenv
